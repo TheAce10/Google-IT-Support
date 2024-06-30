@@ -1,0 +1,67 @@
+Procurement - this is where hardware is purchased for an employee
+Deployment - this is where hardware is set up so that the employee can do their job.
+Maintenance - this is the stage where software is updated and hardware issues are fixed, if and when they occur
+Retirement - in this final stage, hardware becomes unusable or no longer needed. 
+		And it needs to be properly removed from the fleet
+
+ In a small organization, a typical hardware life cycle might go something like this. 
+First, a new employee is hired by the company, human resources tells you to provision
+ a computer for them and set up their user account. Next, you allocate a computer you
+ have from your inventory or you order a new one if you need it. When you allocate 
+hardware, you may need to tag the machine with a sticker so that you can keep track of
+ which inventory belongs, to the organization. Next, you image the computer with the 
+base image, next, you name the computer with the standardized host name. This helps 
+with managing machines, in regards to the name itself, we talked about using a format 
+such as user name, dash location, but other hosting status can be used. After that, 
+you install software, the user needs on their machine. Then, the new employee starts 
+and you streamline the setup process for them by providing instructions on how to log 
+into their new machine, get email etc. Eventually, if the computer sees a hardware 
+issue of failure, you look into it, and think through the next steps. If it's getting
+ too old, you have to figure out where to recycle it and where to get new hardware. 
+Finally, if a user leaves the company, you'll also have to remove their access from IT
+ resources and wipe the machine. So that you can eventually reallocate it to someone 
+else. Installing software and configuring settings on a new computer can get a little 
+time-consuming. In a small company, you don't do it often enough where it makes much 
+of a difference. But in a larger company, a time-consuming process just won't cut it, 
+you have to learn automated ways to provision new machines, so that you only spend 
+minutes on this and not hours.
+
+procurement and maintenance of hardware
+setting up business account with vendors like HP, Dell Apple Microsoft
+
+1. What steps did you take to get to this point ?
+2. What's the unexpected (bad) result ?
+3. What's the exxpected result ?
+
+New terms and their definitions: Course 4 Module 1
+Cloud computing: The concept and technological approach of accessing data, using applications, storing files, etc. from anywhere in the world as long as you have an internet connection
+
+Data center: A facility that stores hundreds, if not thousands of servers
+
+Deployment: Hardware is set up so that the employee can do their job
+
+IT Infrastructure: The software, the hardware, network, and services required for an organization to operate in an enterprise IT environment
+
+KVM Switch: Keyboard, video, & mouse switch that looks like a hub that you can connect multiple computers to and control using one keyboard, mouse, and monitor
+
+Maintenance: Where software is updated and hardware issues are fixed if, and when, they occur
+
+Procurement: Hardware is purchased or reused for an employee
+
+Production: The parts of the infrastructure where certain services are executed and serve to its users production
+
+Reproduction case: Recreating an error to test a solution to make sure the problem is gone after a fix has been applied
+
+Retirement: Hardware becomes unusable or no longer needed, and it needs to be properly removed from the fleet
+
+Rollback: Reverting to the previous state before you made changes
+
+Secondary or stand-by machine: A machine that is the same as a production machine, but won't receive any traffic from actual users until enabled
+
+Server: Software or a machine that provides services to other software or machines
+
+System Administration: The field in IT that is responsible for maintaining reliable computer systems, in a Multi-user environment
+
+Test environment: A virtual machine running the same configuration as a production environment, but isn't actually serving any users of the service
+
+

@@ -1,0 +1,19 @@
+icacls '.\Google IT support.txt' /grant 'Authenticated Users:(OI)(CI)(R)'
+
+icacls '.\Google IT support.txt' /remove 'Authenticated Users:(OI)(CI)(R)'
+LINUX
+chmod u+x '.\Google IT support.txt' 
+chmod u-x '.\Google IT support.txt' 
+
+chmod u+rx '.\Google IT support.txt' 
+chmod ugo+r '.\Google IT support.txt'  --symbolic format
+
+--numeric format
+4 -- r
+2 -- w
+1 -- x
+chmod 741 '.\Google IT support.txt' 
+
+sudo chown devan '.\Google IT support.txt' 
+sudo chgrp group_name '.\Google IT support.txt' 
+

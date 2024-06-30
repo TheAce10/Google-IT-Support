@@ -1,0 +1,116 @@
+Security Infrastructure Design Document for Times Inc
+
+Authentication system
+May employ a well-administered system using Active Directory or OpenLDAP as a directory service.
+Under this, we implement a multifactor authentication system using Biometrics, security tokens, or OTP in conjunction with passwords
+The password should also meet a criteria for security
+
+
+External website security
+For a well-secured website, we employ certification from trusted certificate authorities thus using HTTPS standard
+
+
+Internal website security
+internal website can also be secured over SSL/TSL protocol by using the HTTPS standard
+Remote access solution
+To deploy remote access, security is essential. One best solutions is to use a VPN. 
+Virtual Private Networks, VPNs are used to provide secure remote access and link two networks securely
+
+Firewall and basic rules recommendations
+Firewalls are critical to securing a network. They can be deployed as dedicated 
+network infrastructure devices which regulate the flow of traffic for a whole 
+network, either Host-based, Network-based, or both which is safer.
+A recommended basic rule in using a firewall is to use the whitelist approach instead 
+of the blacklist approach.
+That is first to set an all-access deny rule and then allow only ports to be used.
+Set rules to guide traffic only to selected services such as the network and VPN server
+
+
+Wireless security
+WPA2 Enterprise used with TLS certificates for authentication is one of the best 
+solutions available. WPA2 Enterprise would offer the highest level of security for 
+a Wi-Fi network. It offers the best encryption options for protecting data from eavesdropping 
+third parties. Other security options include EAP-TLS
+
+VLAN configuration recommendations
+VLAN can also be deployed to isolate and segregate groups on a network. Like administration, infrastructure, and accounting VLAN.
+These are subnets under a network structure. This helps isolate groups and builds restricted access. We can also have something
+like a guest VLAN that connects other devices outside the company such as third-party services
+This gives you more flexibility to enforce security on VPN clients. It also lets you build additional layers of defenses.
+
+Laptop security configuration
+For a network handling sensitive data, endpoints, or terminals such as laptops on a network need a form of security against intrusion when in use or lost.
+A laptop device should have the following:
+	1. A full disk encryption to protect the disk from unauthorized access to data when a device is lost
+	2. Laptops should be password-protected to prevent unauthorized access
+	3. Laptops should not be left unlocked when not in use
+	4. Use Antivirus software protection against malware attacks. Binary whitelisting software can be used as well.
+
+Application policy recommendations
+To improve upon security, we could use application policies to reduce our attack surface
+A good recommendation or a requirement is to only support or require the latest version 
+of a piece of software.
+If there's a common use case for a certain type of software, it would be helpful to select a 
+specific software implementation
+Policies should also be defined for browser extensions and add-ons
+
+
+Security and privacy policy recommendations
+
+Privacy policies oversee the access and use of sensitive data.
+We can apply the principle of least privilege here using logging and monitoring systems. 
+By not allowing access to this type of data by default, you should require anyone 
+who needs access to first make an access request with a justification for 
+getting the data. But it can't be vague or a generic request for access. 
+They should be required to specify what data they need access to. Requests must be reviewed
+and approved before access is granted. Only after review and approval will an 
+individual be granted access to the specific user data requested. 
+Usually, this type of request should also have a time limit on access.
+ 
+With security, one of the best policies is to have an occasional mandatory 
+security training course. Training with videos, quizzes, in-person, etc. 
+This should cover topics, such as phishing emails, password best practices, and more.
+Another policy would be to ensure strong and secure passwords are used. 
+The company should set criteria for passwords such as a minimum length of 8 characters,
+should include Upper- and lower-case characters, symbols, and numbers. And also enforce
+the habit of changing passwords frequently maybe every 3-4 months
+
+
+
+Intrusion detection or prevention for systems containing customer data
+IDS or IPS systems operate by monitoring network traffic and analyzing it for 
+matching behavior or characteristics that would indicate malicious traffic.
+One potential choice would be to deploy NIDS and HIPS. 
+In the case of a network intrusion detection system or NIDS, the detection 
+system would be deployed somewhere on a network where it can monitor traffic for 
+a network segment or subnet.
+A Host-based Intrusion Prevention System because for an IPS device to 
+block traffic from a detected threat, it must be placed in line with the 
+traffic being monitored. This means that the traffic that's being monitored must 
+pass through the IPS device. If not, the IPS host couldn't act on suspected traffic.
+
+Thank you for your submission!
+
+A great submission should include:
+
+Two authentication system requirements, like Security Key-based multifactor or OTP-based multifactor, and some kind of centralized authentication system (e.g., LDAP or Active Directory).
+
+A description of HTTPS.
+
+Recommendation for both a VPN service and a reverse proxy solution.
+
+A description of two or more types of firewall services (e.g., implicit deny rule, remote access, websites).
+
+Requirement for 802.1X. 
+
+A description of four VLAN requirements, including Engineering VLAN, Sales VLAN, Infrastructure VLAN, and Guest VLAN.
+
+Three laptop security requirements, including FDE recommendations, antivirus recommendation, and a binary whitelisting recommendation.
+
+Requirement for a software update requirement policy and a requirement for restrictions on the types of applications permitted.
+
+Recommendations for rules protecting access to user data and for rules protecting the storage of user data. 
+
+A description of four of the following security policy recommendations: passwords requiring a minimum of 8 characters; passwords requiring special characters; requiring periodic password changes > 6 months; and some form of mandatory security training for users. 
+
+A requirement for a NIPS/NIDS on the network for customer data and a requirement for HIPS/HIDS on systems containing customer data.              	

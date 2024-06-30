@@ -1,0 +1,285 @@
+Pelcgbybtl(Cryptology)
+ In the second module of this course, we'll learn about cryptology. We'll explore different types of 
+ encryption practices and how they work. We'll show you the most common algorithms used in cryptography 
+ and how they've evolved over time. By the end of this module, you'll understand how symmetric encryption, 
+ asymmetric encryption, and hashing work; you'll also know how to choose the most appropriate cryptographic 
+ method for a scenario you may see in the workplace.
+
+Learning Objectives
+    ○ Understand the how symmetric encryption, asymmetric encryption, and hashing work.
+    ○ Describe the most common algorithms of cryptography.
+    ○ Choose the most appropriate cryptographic method given a scenario.
+
+We'll cover how this plays out through symmetric encryption, asymmetric encryption, and hashing
+
+Cryptography
+    hiding messages from potential enemies. 
+    the overarching discipline that covers the practice of coding and hiding messages from third parties is 
+    called cryptography
+    The study of these practice is Cryptology
+    The opposite of this, looking for hidden messages or trying to decipher coded message, is referred to as 
+    Cryptanalysis.
+
+Encryption
+    Encryption is the act of taking a message called plaintext and applying an operation to it called 
+    a cipher so that you receive a garbled, unreadable message as the output called ciphertext
+Decryption
+    The reverse process, taking the garbled output and transforming it back into the readable plaintext, 
+    is called decryption.
+
+    For example, let's look at a simple cipher where we substitute e for o and o for y. We'll take the 
+    plaintext "Hello, World!" and feed it into our basic cipher. What do you think the resulting ciphertext 
+    will be? Hopefully, you've got Holly Wyrld. It's pretty easy to decipher this ciphertext, since this is 
+    a very basic example.
+
+    A cipher is actually made up of two components, the encryption algorithm and the key. 
+Encryption algorithm
+    is the underlying logic or process that's used to convert the plaintext into ciphertext.
+
+key
+
+Security through obscurity
+    basically means if no one knows what algorithm we're using or general security practice, 
+    then we're safe from attackers
+
+cryptography depends on Kerchoffs principle
+    This principle states that a cryptosystem or a collection of algorithms for key generation and encryption 
+    and decryption operations that comprise a cryptographic service should remain secure, even if everything 
+    about the system is known except for the key.
+  You may also hear this principle referred to as Shannon's maxim or the enemy knows the system. 
+  The implications are the same. "The system should remain secure, even if your adversary knows exactly what 
+  kind of encryption systems you're employing as long as your keys remain secure."
+
+Frequency analysis 
+    is the practice of studying the frequency with which letters appear in ciphertext.
+  For example, the most commonly used letters in the English language are e, t, a, and o. 
+  The most commonly seen pairs of these letters are th, er, on, and an.
+
+Steganography
+    is a related practice, but distinctly different from cryptography. It's the practice of hiding information 
+    from observers but not encoding it. Think of writing a message using invisible ink. The message is in 
+    plaintext and no decoding is necessary to read the text, but the text is hidden from sight. The ink is 
+    invisible and must be made visible using a mechanism known to the recipient.
+
+*******************************************************
+Symmetric Cryptography
+    They use the same key to encrypt and decrypt messages
+
+Substitution cipher
+    an encryption mechanism that replaces parts of your plain text with ciphertexts.
+    e.g. Caesar cipher, ROT13
+
+    Stream and Block cipher
+Stream cipher
+    A Stream cipher, as the name implies, takes a stream of input and encrypts the stream one character or 
+    one digit at a time, outputting one encrypted character or digit at a time. There's a one-to-one 
+    relationship between data in an encrypted data out
+
+Block cipher
+    The other category of symmetric ciphers is Block ciphers. The cipher takes data in, places it into a bucket 
+    or block of data that's a fixed size, then encodes that entire block as one unit. If the data to be 
+    encrypted isn't big enough to fill the block, the extra space will be padded to ensure the plain text fits 
+    into the blocks evenly. 
+
+    One of the earliest encryption standards is DES, which stands for Data Encryption Standard. DES was designed in 
+    the 1970s by IBM with some input from the US National Security Agency. DES was adopted as an official FIPS, 
+    Federal Information Processing Standard for the US. This means that DES was adopted as a federal standard for 
+    encrypting and securing government data. DES is a symmetric block cipher that uses 64 bit key sizes and 
+    operates on blocks 64 bits in size. Though key size is technically 64 bits in length, eight bits are used only 
+    for parity checking. A simple form of error checking. This means that real-world key length for DES is only 56 
+    bits.
+
+    
+Asymmetric or Public key Cryptography
+    these systems use different keys to encrypt and decrypt
+
+    Confidentiality
+    Authenticity
+    Non-repudiation
+
+    MACs - Message Authentication Codes
+    A bit of information tha allows authentication of a received message, ensuring that the message came from 
+    the alleged sender and not a third partymasquerading as them
+    It also ensures that message wasn't modifiedin some way.
+
+    HMAC - Keyed-hashed Message Authentication Code
+    CMACS - Cipher-Based Message Authentication Codes
+
+        CBC MAC - Cipher block chaining Message Authentication Codes
+    E.g of assymmetric key exchange algorithms RSA DSA DH
+
+Hashing or a hash function
+    is a type of function or operation that takes in an arbitrary data input and maps it to an output of a 
+    fixed size called a hash or a digest.
+    What this means exactly is that you feed in any amount of data into a hash function and the resulting 
+    output will always be the same size, but the output should be unique to the input, such that two different 
+    inputs should never yield the same output.
+    Hashing can also be used to identify duplicate datasets and databases or archives to speed up searching 
+    of tables or to remove duplicate data to save space.
+    Cryptographic hashing is distinctly different from encryption because cryptographic hash functions should 
+    be one-directional.
+
+Features
+    ○ The ideal cryptographic hash function should be deterministic, meaning that the same input value should 
+      always return the same hash value. 
+    ○ The function should be quick to compute and be efficient, it should be infeasible to reverse the function 
+      and recover the plain text from the hash digest.
+    ○ A small change in the input should result in a change in the output so that there is no correlation 
+      between the change in the input and the resulting change in the output.
+    ○ Finally, the function should not allow for hash collisions, meaning two different inputs mapping to the 
+    same output. 
+
+Hashing algorithm
+    ○ MD5 
+      is a popular and widely used hash function designed in the early 1990s as a cryptographic hashing 
+      function. It operates on a 512 bit blocks and generates 128 bit hash digest.
+      In 2004, it was discovered that MD5 is susceptible to hash collisions. 
+      Due to these very serious vulnerabilities in the hash function, it was recommended to stop using 
+      MD5 for cryptographic applications by 2010.
+      When design flaws were discovered in MD5, it was recommended to use SHA1 as a replacement. 
+      
+    ○ SHA1 is part of the Secure Hash Algorithm suite of functions designed by the NSA and published in 1995. 
+      It operates a 512 bit blocks and generates 160 bit hash digest. SHA1 is another widely used cryptographic 
+      hashing functions used in popular protocols like TLS/SSL, PGP/SSH, and IPSec. 
+      SHA1 and SHA2 were required for use in some US government cases for protection of sensitive information, 
+      although the US National Institute of Standards and Technology recommend stopping the use of SHA1 and 
+      relying on SHA2 in 2010. Many other organizations have also recommended replacing SHA1 with SHA2, or SHA3.
+
+      SHA1 also has its share of weaknesses and vulnerabilities with security researchers trying to demonstrate 
+      realistic hash collisions. During the 2000s, a bunch of theoretical attacks were formulated and some 
+      partial collisions were demonstrated. But full collisions using these methods requires significant 
+      computing power. One such attack was estimated to require $2.77 million in Cloud computing CPU resources. 
+      In 2015, a different attack method was developed that didn't demonstrate a full collision. But this was 
+      the first time that one of these attacks was demonstrated, which had major implications for the future 
+      security of SHA1. What was only theoretically possible before was now becoming possible with more efficient
+       attack methods and increases in computing performance, especially in the space of GPU accelerated 
+       computations and Cloud resources. A full collision with this attack method was estimated to be feasible 
+       using CPU and GPU Cloud computing for approximately 75 to $120,000, much cheaper than previous attacks. 
+       In early 2017, the first full collision of SHA1 was published. Using significant CPU and GPU resources, 
+       two unique PDF files were created that result in the same SHA1 hash. The estimated processing power 
+       required to do this was described as equivalent of 6,500 years of a single CPU and 110 years of a single 
+       GPU computing non-stop. That's a lot of years.
+       There's also the concept of a MIC, or message integrity check. 
+
+    ○ MIC
+        A MIC is essentially a hash digest of the message in question. You can think of it as a checksum for the 
+        message, ensuring that the contents of the message weren't modified in transit. But this is distinctly 
+        different from a MAC that we talked about earlier.
+
+Hashing Algorithms (continued)
+    Storing passwords as Hashes
+        By only storing password hashes, the worst the attacker would be able to recover would be password hashes, 
+        which aren't really useful on their own. What if the attacker wanted to figure out what passwords 
+        correspond to the hashes they stole. They would perform a brute force attack against the password hash 
+        database. This is where the attacker just tries all possible input values until a resulting hash matches 
+        the one they're trying to recover the plaintext from. Once there's a match, we know that the input that's 
+        generated that matches the hash is the corresponding password. As you can imagine, a brute force attack 
+        can be very computationally intensive depending on the hashing function used. An important characteristic 
+        to call out about brute force attacks is, technically, they're impossible to protect against completely. 
+        A successful brute force attack, against even the most secure system imaginable, is a function of attacker 
+        time and resources. If an attacker has unlimited time and or resources, any system can be brute forced. 
+        Yikes. So, the best we can do to protect against these attacks is to raise the bar, make it sufficiently 
+        time and resource intensive so that it's not practically feasible in a useful time frame or with existing 
+        technology. Another common method to help raise the computational bar and protect against brute force 
+        attacks, is to run the password through the hashing function multiple times. 
+        That brings us to the topic of rainbow tables. Don't be fooled by the colorful name. 
+
+    Rainbow Tables
+        These tables are used by bad actors to help speed up the process of recovering passwords from stolen 
+        password hashes. A rainbow table is just a pre computed table of all possible password values, and their 
+        corresponding hashes. The idea behind rainbow table attacks is to trade computational power for disk space, 
+        by pre computing the hashes and storing them in a table. An attacker can determine what the corresponding 
+        password is for a given hash, by just looking up the hash in their rainbow table. This is unlike a brute 
+        force attack, where the hash is computed for each guess attempt. It's possible to download rainbow tables 
+        from the internet for popular password lists and hashing functions. This further reduces the need for 
+        computational resources, requiring large amounts of storage space to keep all the password and hash data. 
+        o, you may be wondering how you can protect against these pre computed rainbow tables. That's where salts 
+        come into play. And no, I'm not talking about table salt.
+
+    Password Salt
+        A password salt is additional randomized data that's added into the hashing function to generate a hash 
+        that's unique to the password and salt combination. Here's how it works. A randomly chosen large salt is 
+        concatenated or attacked onto the end of the password. The combination of salt and password is then run 
+        through the hashing function to generate the hash, which is then stored alongside the salt. What this 
+        means now for an attacker, is that they'd have to compute a rainbow table for each possible salt value. 
+        If a large salt is used, the computational and storage requirements to generate useful rainbow tables 
+        becomes almost infeasible. 
+        Early UNIX systems used a 12 bit salt, which amounts to a total of 4096 possible salts. 
+        So an attacker would have to generate hashes for every password in their database 4096 times over. 
+        Modern systems like Linux, BSD and Solaris use a 128 bit salt. That means, there are 2 to the 128th power 
+        possible salt values, which is over 340 undecillion, that's 340 with 36 zeros following. Clearly, 128 bit 
+        salt raises the bar high enough that a rainbow table attack wouldn't be possible in any realistic timeframe.
+        Just another scenario when adding salt to something makes it even better.
+
+Public Key Infrastructure - PKI
+    PKI is a system that defines the creation, storage, and distribution of digital certificates.
+
+    Digital Certificate - A digital certificate is a file that proves that an entity owns a certain public key.
+    
+    A certificate contains 
+        Information about the public key
+        The entity it belongs to
+        and a digital signature from another party that has verified this information
+
+        The entity that is responsible for storing, issuing, and signing certificates is referred to as CA, or 
+        Certificate Authority.
+
+        There's also an RA or Registration Authority that's responsible for verifying the identities of any 
+        entities requesting certificates to be signed and stored with the CA.
+        A central repository is needed to securely store and index keys, and a certificate management system of 
+        some sort, makes managing access to storage certificates and issuance of certificates easier.
+
+        PKI is very much dependent on trust relationships between entities and building a network or chain of trust. 
+        This chain of trust has to start somewhere, and that starts with the root certificate authority. 
+        These root certificates are self-signed because they are the start of the chain of trust, so there's no 
+        higher authority that can sign on their behalf. This root certificate authority can now use the 
+        self-signed certificate and the associated private key to begin signing other public keys and issuing 
+        certificates. It builds a tree structure with the root private key at the top of the structure.
+
+    The X.509 standard is what defines the format of digital certificates. It also defines a certificate 
+    revocation list, or CRL, which is a means to distribute a list of certificates that are no longer valid. 
+    The X.509 standard was first issued in 1988. The current modern version of the standard is Version 3. 
+    The fields defined in an X.509 certificate are; 
+    ○ the version, what version of the X.509 standard the certificate adheres to. 
+
+    ○ Serial number, a unique identifier for the certificate assigned by the CA, which allows the CA to 
+    manage and identify individual certificates. 
+
+    ○ Certificates signature algorithm, This field indicates what public key algorithm is used for the 
+    public key and what hashing algorithm is used to sign the certificate. 
+    
+    ○ Issuer name. This field contains information about the authority that sign the certificate. 
+    
+    ○ Validity. This contains two subfields, Not Before and Not After, which define the dates when the 
+    certificate is valid for. 
+    
+    ○ Subject. This field contains identifying information about the entity the certificate was issued to. 
+    
+    ○ Subject public key info. These two subfields define the algorithm of the public key along with the 
+    public key itself. 
+    
+    ○ Certificates signature algorithm, same as the subject public key and field, these two fields must match. 
+    
+    ○ Certificate signature value, the digital signature data itself. 
+    There are also certificate fingerprints which aren't actually fields in the certificate itself, but are 
+    computed by clients when validated or inspecting certificates. 
+
+    Alternative to the centralized PKI model of establishing trust and binding identities is what's called 
+    the web of trust.
+
+    A web of trust is where individuals, instead of certificate authorities, sign other individuals public keys.
+    Before an individual signs a key, they should first verify the person's identity through an agreed upon 
+    mechanism, usually by checking some form of identification, driver's license, passport, etc. Once they've 
+    determined the person is who they claim to be, signing their public key is basically vouching for this 
+    person. You're saying that you trust that this public key belongs to this individual. This process would 
+    be reciprocal, meaning both parties would sign each other's keys. Usually people who are interested in 
+    establishing web of trust will organize what are called key signing parties, where participants perform 
+    the same verification and signing. At the end of the party, everyone's public keys should have been signed 
+    by every other participant, establishing a web of trust. In the future when one of these participants in 
+    the initial key signing party establishes trust with a new member. The web of trust extends to include 
+    this new member and other individuals they also trust. This allows separate webs of trust to be bridged by 
+    individuals and allows the network of trust to grow.
+
+Cryptography in Action
+    SSL/TLS - the crucial roles CAs play, let's check out how that fits into securing web traffic via HTTPS. 
+    X

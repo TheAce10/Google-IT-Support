@@ -1,0 +1,15 @@
+metadata includes 
+owner of the file
+permission
+size
+location on the hard dive
+
+ntfs -- native file system
+	uses master file table 
+file attribs include
+	name of file
+	creation timestamp
+	whether read only or not
+	whether compressed or not 
+	location of data the file contains
+	

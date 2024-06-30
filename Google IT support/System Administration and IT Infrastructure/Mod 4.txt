@@ -1,0 +1,68 @@
+""
+DIRECTORY services
+ contains a lookup service that provides mapping between network resources and their network addresses
+
+ should support replication 
+    improves redundancy and decreases latency
+ uses a hierarchical model of objects amd containers(organizational units)
+
+ sysadmin is responsible for 
+    ○ setup
+    ○ configuration
+    ○ maintenance
+
+DAP Directory Access Protocol 
+DSP Disrectory System Protocol 
+DISP Directory Information Shadowing Protocol
+DOBMP Directory Operational Bindings Management Protocol
+LIDP Lightweight Directory Access protocol
+
+CENTRALIZED MANAGEMENT SYSTEM
+    a central service that provides instructions to all of the different parts of my
+    IT infrastructure
+
+    services provided for Directory services are centralized authentication, authorisation and accounting AAA
+
+
+    the use of log on scripts which run everytime someone log onto a computer
+
+LDAP
+    add, remove or modify entries in a directory
+    BIND operation which authenticates clients to the directory server.
+
+    3 common ways to authenticate
+    ○ anonymous - anyone can acces (open)
+    ○ simple - can be accesed with directory name and passsword but done with plain text and not secured(encryption)
+    ○ SASL simple authentication and security layer - employs security protocol like TLS 
+        uses methods such as kerberos for authentication
+
+Active Directory introduced with Windows server 2000
+    ☼ Domain the highest node on the directory server tree
+    #A Forest contains one or more domains
+        ☼ Computers
+        ☼ Domain controllers - servers that holds copies the Active Directory database 
+                also serve as DNS to provide name resolution and service discovery to clients
+                They provide central authentication through a network security protocol called Kerberos
+        ☼ Users
+            Domain Admins - group for Admins
+            Enterprise Admins - also admins of the active directory domain. Also have a permission to
+                make changes to the doamin that affect other domains in a multi domian forest
+            Domain Users - contains every Users
+            Domain Computers - contains all computer sjoined on the domain except domain controllers
+
+            SAM - Security Account Manager is a database in Windows that stores usernames and passwords
+            
+
+        Group category and Group Scope 
+        category
+            Security - used to grant or deny access to IT resources
+            Distribution - only designed to group accounts and contacts foor email commuuniction
+        scope has to do with the way group definitions are replicated across domains
+        #keeping a lot of large groups synchronized in a very large network is complicated
+            Domain Local - used to assign permission to a resources
+            Global - Used to group accounts into a role e.g. researchers group
+            Universal - used to group roles in a forest. It gets replicated across multidomain forests
+        
+        for GPO management we use GPMC found under the tools group of server or by running  gpmc.msc 
+        
+

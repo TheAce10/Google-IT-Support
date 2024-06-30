@@ -1,0 +1,50 @@
+Cordelia keyboard layout
+
+Alan Turing
+
+Alan Turing was born in 1912. While completing his degrees, he developed the concept of the Turing machine. Turing proved that there were some yes/no mathematical questions that could never be solved computationally which defined computation and its limitations. These findings would go on to become one of the seeds of computer science and his conceptual Turing machine (so named by his Doctoral advisor) is considered a predecessor of modern computer programs. During the Second World War, Turing developed the Turing-Welchman Bombe which was used to decipher Nazi codes and intercept Nazi messages. After the war, Turing's Imitation Game (now known as the Turing test) was created as a means to evaluate the abilities of artificial intelligence. 
+
+Dorothy Vaughan was a mathematician who would eventually become the first African American supervisor of NACA (National Advisory Committee for Aeronautics which would later become NASA) and a FORTRAN expert programmer working on the Scout Launch Vehicle Program (a family of rockets that placed small satellites in orbit). 
+
+Module 1 Glossary
+New terms and their definitions: Course 1 Module 1
+Abstraction: To take a relatively complex system and simplify it for our use
+
+Algorithm: A series of steps that solves specific problems
+
+ASCII: The oldest character encoding standard used is ASCII. It represents the English alphabet, digits, and punctuation marks
+
+Binary system: The communication that a computer uses is referred to as binary system, also known as base-2 numeral system
+
+Byte: A group of 8 bits
+
+Character encoding: Is used to assign our binary values to characters so that we as humans can read them
+
+Computer: A device that stores and processes data by performing calculations
+
+Cryptography: The overarching discipline that covers the practice of coding and hiding messages from third parties
+Decimal form- base 10 system: In the decimal system, there are 10 possible numbers you can use ranging from zero to nine
+
+Digital divide: The growing skills gap between people with and without digital literacy skills
+
+Information technology: The use of digital technology, like computers and the internet, to store and process data into useful information
+
+Linux OS: Linux is one of the largest open source operating systems used heavily in business infrastructure and in the consumer space
+
+Logic gates: Allow transistors to do more complex tasks, like decide where to send electrical signals depending on logical conditions
+
+Open source: This means the developers will let other developers share, modify, and distribute their software for free
+
+PDA (Personal Digital Assistant): Allows computing to go mobile
+
+Punch cards: A sequence of cards with holes in them to automatically perform calculations instead of manually entering them by hand
+
+RGB model: RGB or red, green, and blue model is the basic model of representing colors
+
+UTF-8: The most prevalent encoding standard used today
+
+
+My first experience working directly in IT was in college as an IT support specialist intern. From there, I worked as an IT consultant to decommission an entire IT environment. 
+
+
+Hi, my name is Victor Escobedo and I'm a corporate operations engineer. I now work on managing deployment of large internal IT projects for the company. 

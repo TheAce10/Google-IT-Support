@@ -1,0 +1,126 @@
+Cordelia keyboard layout
+
+Alan Turing
+
+Alan Turing was born in 1912. While completing his degrees, he developed the concept of the Turing machine. Turing proved that there were some yes/no mathematical questions that could never be solved computationally which defined computation and its limitations. These findings would go on to become one of the seeds of computer science and his conceptual Turing machine (so named by his Doctoral advisor) is considered a predecessor of modern computer programs. During the Second World War, Turing developed the Turing-Welchman Bombe which was used to decipher Nazi codes and intercept Nazi messages. After the war, Turing's Imitation Game (now known as the Turing test) was created as a means to evaluate the abilities of artificial intelligence. 
+
+Dorothy Vaughan was a mathematician who would eventually become the first African American supervisor of NACA (National Advisory Committee for Aeronautics which would later become NASA) and a FORTRAN expert programmer working on the Scout Launch Vehicle Program (a family of rockets that placed small satellites in orbit). 
+
+Module 1 Glossary
+New terms and their definitions: Course 1 Module 1
+Abstraction: To take a relatively complex system and simplify it for our use
+
+Algorithm: A series of steps that solves specific problems
+
+ASCII: The oldest character encoding standard used is ASCII. It represents the English alphabet, digits, and punctuation marks
+
+Binary system: The communication that a computer uses is referred to as binary system, also known as base-2 numeral system
+
+Byte: A group of 8 bits
+
+Character encoding: Is used to assign our binary values to characters so that we as humans can read them
+
+Computer: A device that stores and processes data by performing calculations
+
+Cryptography: The overarching discipline that covers the practice of coding and hiding messages from third parties
+
+Decimal form- base 10 system: In the decimal system, there are 10 possible numbers you can use ranging from zero to nine
+
+Digital divide: The growing skills gap between people with and without digital literacy skills
+
+Information technology: The use of digital technology, like computers and the internet, to store and process data into useful information
+
+Linux OS: Linux is one of the largest open source operating systems used heavily in business infrastructure and in the consumer space
+
+Logic gates: Allow transistors to do more complex tasks, like decide where to send electrical signals depending on logical conditions
+
+Open source: This means the developers will let other developers share, modify, and distribute their software for free
+
+PDA (Personal Digital Assistant): Allows computing to go mobile
+
+Punch cards: A sequence of cards with holes in them to automatically perform calculations instead of manually entering them by hand
+
+RGB model: RGB or red, green, and blue model is the basic model of representing colors
+
+UTF-8: The most prevalent encoding standard used today
+
+
+My first experience working directly in IT was in college as an IT support specialist intern. From there, I worked as an IT consultant to decommission an entire IT environment. 
+
+Memory control chip - control the flow of data over the extenal data bus EDB
+The MCC is a bridge between the CPU and the RAM. You can think of it like a nerve in your brain connecting to your memories, the CPU talks to the MCC and says hey I need the instructions for step number three of this recipe, the MCC finds instructions for step number three in RAM, grabs the data and sends it through the EDB.
+
+Level 3 cache: L3 cache is the largest and slowest of CPU cache. However, it is often twice as fast as RAM. L3 is the first CPU cache location to store data after it is transferred from RAM. L3 cache is often shared by all of the cores in a single CPU. 
+
+Level 2 cache: L2 cache holds less data than L3 cache, but it has faster access speeds. L2 holds a copy of the most recently accessed data that is not currently in use by the CPU. Each CPU core normally has its own L2 cache.
+
+Level 1 cache: L1 cache is the fastest and smallest of the three CPU cache levels. L1 holds the data currently in use by the CPU. Each CPU core usually has its own L1 cache.
+
+Overclocking a CPU’s frequency involves three variables:
+
+The base CPU clock frequency, often measured in GHz.
+
+The core frequency, which is calculated by multiplying the base frequency by the CPU core multipliers. 
+
+The core voltage, which needs to be increased in small increments to meet the increasing power demand of the CPU during the overclocking process.
+
+How to overclock a CPU safely
+As an IT Support professional, you may be asked to overclock a CPU. There are steps you should follow to do this as safely as possible. Always make sure that the requestor understands the risks of overclocking before agreeing to perform this procedure. 
+
+Check if overclocking is supported: First, make sure the CPU is a model that is unlocked for overclocking. Not all CPUs can support overclocking, including most laptop CPUs. Check the CPU manufacturer’s documentation to determine if overclocking is possible for the CPU model. Both Intel and AMD provide overclocking guides and tools for supported CPU models (see below for links to these guides). Additionally, check the documentation for the computer’s motherboard model to ensure that it can support an overclocked CPU.
+
+Clean the inside of the computer: Turn off and unplug the computer. While wearing an anti-static wristband, open the computer and use compressed air to remove any dust build-up that has accumulated. It is especially important to remove any dust from around the CPU, fans, and intake vents.
+
+Ensure an appropriate CPU cooler is installed (critical): If the computer has a stock CPU cooler, it is most likely insufficient for cooling an overclocked CPU. Replace the stock CPU cooler with an advanced cooling system, like a liquid cooling system.
+
+Follow the manufacturer’s instructions for overclocking the CPU: Using the detailed instructions from the manufacturer (see below for links to Intel and AMD’s guides): 
+
+Use benchmarking software to establish a baseline for the normal performance of the computer.
+
+Set each CPU core multiplier to the value of the lowest multiplier using either the manufacturer’s overclocking software (recommended) or the BIOS. Then reboot the computer. 
+
+Increase each CPU core multiplier by 1 to increase the CPU frequency. 
+
+Test each increase for stability using the testing utility provided by the manufacturer. 
+
+Fix any problems flagged by the testing tools, especially temperature alerts. If the system becomes too unstable, roll back to the last frequency that produced a stable performance and stop overclocking the CPU.
+
+If the voltage appears to become insufficient to support the new frequency, increase the voltage by 0.05V. Do not increase the voltage above 1.4V without specialized cooling hardware.
+
+If the computer freezes or crashes, it has either become completely unstable or the CPU is not getting enough voltage to support the overclocked frequency. Use the BIOS to return to the last stable frequency or increase the voltage in 0.01V increments until stable.
+
+If stable, reboot the computer before attempting the next increase. 
+
+Resources for more information
+Intel: https://www.intel.com/content/www/us/en/gaming/overclocking-intel-processors.html
+Overclocking: Maximize Your Performance
+ - Intel’s all-inclusive guide to overclocking CPU, RAM, and motherboard. The site also provides utility tools for fine-tuning overclock performance and lists Intel CPU models that support overclocking.
+
+AMD: https://www.amd.com/en/technologies/ryzen-master
+AMD Ryzen™ Master Utility for Overclocking Control
+ - AMD’s toolkit for overclocking Ryzen processors. Note that overclocking support for non-Ryzen models is no longer recommended by AMD.
+
+AMD: https://www.amd.com/en/processors/ryzen-compatible-memory
+Ryzen™ Processor Overclocked Memory Compatibility List
+ - List of AMD Ryzen CPU models that support overclocking.
+
+AMD: https://www.pcmag.com/how-to/how-to-overclock-your-amd-ryzen-cpu
+How to Overclock Your AMD Ryzen CPU
+ - Instructions for overclocking AMD Ryzen CPUs from PC Magazine.
+
+Depending on your motherboard, you need to make sure these CPUs fit correctly in the socket. There are currently two major types of CPU sockets; Land Grid Array, also known as LGA, and Pin Grid Array, also known as PGA. In an LGA socket, like this one, there are pins that stick out of the motherboard. The socket size may vary, so always make sure your CPU and socket are compatible beforehand. When you purchase a CPU or motherboard, they'll tell you right on the box what type of socket it has. Make sure your CPU and motherboards socket also both match. If it's not listed on the box, you can go to the manufacturer's website where you usually list what types of CPUs are compatible with the motherboard. The other type of socket is the PGA socket, where the pins are located on the processor itself. When we installed our CPU, we need to do a few things to it to keep it cool.
+There's one last thing I want to call out about CPUs. If you purchase the CPU, you'll see that it has either a 32-bit or 64-bit architecture. What does that mean? Well, we know we can process eight bits in binary now, imagine how we can process with 32 or even 64 bits. CPUs that have 32-bit or 64-bit architecture are just specifying how much data they can efficiently handle. For now, the main takeaway is that the CPU is one of the most important parts of the computer so we have to make sure it's compatible with all other components and can perform well for our computing needs.
+
+To learn more about the differences between 32-bit and 64-bit CPU architecture, click 
+here https://support.microsoft.com/en-us/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261?ui=en-us&rs=en-us&ad=us
+and 
+here https://en.wikipedia.org/wiki/64-bit_computing#32-bit_vs_64-bit%E2%80%A6
+When 1 or 0 is sent to DRAM, it stores each bit in a microscopic capacitor, this is either charged or discharged, represented by 1 or a 0. These semiconductors are put into chips that are on the RAM and store our data. They're also different types of memory sticks that DRAM chips can be put on. The more modern DIMM sticks which usually stands for Dual Inline Memory Module have different sizes of pins on them. I should call out, we don't really buy RAM based on the number of DRAM chips they have, they're labeled by the capacity of RAM on a stick, like an eight-gig stick of RAM.
+
+They're also different types of memory sticks that DRAM chips can be put on. The more modern DIMM sticks which usually stands for Dual Inline Memory Module have different sizes of pins on them. I should call out, we don't really buy RAM based on the number of DRAM chips they have, they're labeled by the capacity of RAM on a stick, like an eight-gig stick of RAM. After DRAM was created, RAM manufacturers built something called SD RAM which stands for synchronous dram. This type of RAM is synchronized to our system's clock speed, allowing quicker processing of data. In today's system, we use another type of RAM called double data rate SDRAM or DDR SDRAM for short. Most people refer to this RAM as DDR, even shorter. There are lots of iterations of DDR, from DDR1, DDR2, DDR3, and now, DDR4. DDR is faster, takes up less power, and has a large capacity than earlier SD RAM versions. The latest version DDR4 is the fastest type of short-term memory currently available for your computer, and faster RAM means that programs can be run faster and that more programs can run at the same time. Keep in mind that any RAM sticks you use need a compatible motherboard with a different number of pins aligned with the motherboard RAM slots.
+
+THE MOTHERBOARD
+The motherboard, the foundation that holds our computer together. It lets us expand our computers functionality by adding expansion cards. It routes power from the power supply, and it allows the different parts of the computer to communicate with each other. In short, it's a total boss. Every motherboard has a few key characteristics. First is the chipset, which decides how components talk to each other on our machine. The chipset on motherboards is made up of two chips. One is called the Northbridge that interconnects stuff like RAM and video cards. The other chip is the Southbridge, which maintains our IO or input-output controllers, like hard drives and USB devices, that input and output data. In some modern CPUs, the Northbridge has been directly integrated into the CPU so there isn't a separate Northbridge chip set. The chipset is a key component of our motherboard that allows us to manage data between our CPU, RAM, and peripherals. Peripherals are the external devices we connect to our computer, like a mouse, keyboard, and the monitor. In addition to the chipsets, motherboards have another key characteristic which allows the use of expansion slots. Expansion slots also give us the ability to increase the functionality of our computer. If you wanted to upgrade your graphics card, you could purchase one and just install it on your motherboard through the expansion slot. The standard for an expansion bus today is the PCI Express or Peripheral Component Interconnect express. A PCIe bus looks like a slot on the motherboard and a PCIe base expansion card looks like a smallest circuit board. The last component of motherboards that we'll discuss is form factor. There are different size of motherboards that are available today. These sizes of form factors determine the amount of stuff we can put in it and the amount of space we'll have. The most common form factor for motherboards is ATX, which stands for Advanced Technology Extended. ATX actually comes in different sizes too. In desktops, you'll commonly see full-sized ATXs. If you don't want to use an ATX form factor, you could use an IT or information technology extended form factor. These are much smaller than ATX boards. For example, the Intel NUC uses a variation of the ATX board, which comes in three board sizes; mini ITX, nano ITX, and pico ITX. When building your computer, you will need to keep in mind what type of form factor you want. Do you want to build something small that can't handle as much workload, or do you want a powerhouse workstation that you can add lots of functionality to? The form factor will also play a role into what expansion slots you might want to use. Understanding motherboards and their characteristics can be a big plus one fixing hardware issues since things like the type of RAM module or processes socket are dependent on the kind of motherboard they need to fit into. Let's say you're responding to a ticket for a user who's having video problems, you don't want to make it all the way to their desk only to realize the graphics card you bought as a replacement doesn't fit the motherboard their computer uses.
+
+
+Before we get into computer storage, we need to fill in some gaps. I'm referring to things like gigabytes, bits, etc. But we actually haven't talked at all about what those metrics mean. Sorry, I got a gigabit ahead of myself. As you might have guessed, these terms refer to data sizes. The smallest unit of a data storage is a bit. A bit can store one binary digit, so it can store a one or a zero. The next largest unit of storage is called a byte, which is comprised of eight bits. A single byte can hold a letter, number or symbol. The next largest unit is referred to as a KB bite. But we typically use the term kilobyte. A kilobyte is made up of 1,024 bytes. Here's a quick data conversion chart. How much does 500 gigabyte even mean? Let's take a look at the size of an average music file, which is about three megabytes. On a 500 gigabyte machine, that's approximately 165,000 music files. That's a lot of music. We saw all of our computers data on our hard drive, which allows us to store our programs, music, pictures, etc. Have you ever had an issue with your computer and lost all the data that was on your hard drive? Yeah, me too. It was the worst. This actually happens a lot and you'll probably encounter it as an IT support specialist. Make sure you backup your data to be safe. This means you should copy or save your data somewhere else just in case something goes wrong and your hard drive crashes. That way, you won't lose all your data. There are two basic hard drive types used today. Hard describes or HDDs uses a spinning platter and a mechanical arm to read and write information. The speed that the platter rotate allows you to read and write data faster. This is commonly referred to as RPM or revolution per minute. A hard drive with a higher RPM is faster. So if you go out and buy a hard drive today, you might see something like a 500 gigabyte, with 5,400 rpm. HDDs are prone to a lot more damage because there are a lot of moving parts. This susceptibility to damage went away with a new type of storage called solid state drive or SSD. SSDs have no moving parts. Are you familiar with a USB stick? SSDs operate in a similar way. The information is stored on microchips and data travels a lot faster than HDDs. The form factor for SSDs is also slimmer compared to their HDD cousins. Sounds great, doesn't it? So why doesn't everyone use SSDs? Well, both have their pros and cons. HDDs are more affordable, but they're more prone to damage. SSDs are less risky when it comes to losing data, but they're also more expensive. So you may not buy as much memory storage in SSDs than what you can get in HDDs. Believe it or not, there are even hybrid SSD and HDD drives out there. They offer SSD performance where you need it for things like system performance, such as putting your computer along with hard disk drives, but less important stuff like basic file storage. There are a few interfaces that hard drives use to connect our system. ATA interfaces are the most common ones. The most popular ATA drive is a Serial ATA or SATA, which uses one cable for data transfers. SATA drives are hot swappable, great term, don't you think? It means you don't have to turn off your machine to plug in a SATA drive. SATA drives move data faster and use a more efficient cable like this one than its predecessors. SATA has been the de facto interface for HDDs today. But people quickly found that using the SATA cable wasn't good enough for some of the blazing fast SSDs that were coming on the market. The interface couldn't keep up with the speeds of the newest SSDs. So another interface standard was created called NVM express, or NVMe. Instead of using a cable to connect your drive to your machine, the drive was added as an expansion slot, which allows for greater throughput of data and increased efficiency.

@@ -1,0 +1,21 @@
+3A's of  security
+    Authentication
+    Authorization
+    Accounting
+
+Anthentication thereby extended Identication
+    Authentication is 
+
+Multifactor Authentication
+    is a system where users are authenticated by presenting multiple pieces of information or objects
+
+    somthing you know : password or pin
+    somthing you have : physical token like your ATM
+    something you are : piece of biometric data lik fingerprint 
+
+
+Authorization Authz
+    pertains
+
+OAuth
+    access delegate

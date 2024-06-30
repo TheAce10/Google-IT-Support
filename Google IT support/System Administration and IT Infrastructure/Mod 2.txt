@@ -1,0 +1,48 @@
+IaaS
+NaaS
+SaaS
+PaaS
+DaaS
+A directory services centralizes your organisation's users and computers in one location
+for easy add, update and removing users and computers. 
+    Windows Active directory
+    OpenLDAP
+
+joggers
+
+Pros and cons of server types (Physical instance and virtual instance)
+1. Performance
+2. Cost
+3. Maintenance
+4. Points of failure
+
+ ☻♥♦♣♠•◘○◙♂♀♪♫☼►◄‼¶
+ ○ Secure Shell or Secured Socket Shell
+ ○ Remote monitoring and Management
+ ○ 
+REMOTE ACCESS SOFTWARE
+ RDP uses network port 3389
+ VPN 
+
+ FTP/SFTP/TFTP
+ PXE boot (pixie boot) -- Pre Boot Execution 
+
+ NTP network time protocol
+
+ software to improve productivity, privacy and security
+    - Intranet 
+        An intranet network inside a company is accessible if you're on a company's network
+    - Proxy servers
+        Acts as an intermediary between a company's network and the internet
+
+     
+Resolving Domain Name issues
+    1. check that your network connection is actually working
+        check and ping a website that you know is available
+
+    2. Isolating DNS
+        ○ NS LOOKUP 
+        ○ check hostfile/ sudo vim /etc/hosts
+
+    3
+    

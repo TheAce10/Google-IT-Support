@@ -1,0 +1,64 @@
+Software and Platform services
+
+Software
+    communication services
+    security
+    User productivity
+
+Communication services
+    email,phone
+    Chat application
+    - Internet Relay Channel is a protocol that's used for chat messages.
+    - Paid for Options Hipchat(discontinued in 2019) and Slack
+    - OpenIM protocols
+        XMPP Extended Messaging and Presence Protocol (Used by Pidgin and ADM)
+    
+    Email
+    - Domain Name
+    - set up the email server software on a server
+    - Create a DNS record for the mail server (MX record)
+    Email protocols
+        POP3, IMAP and SMTP
+    post office protocol
+        space Maintenance and privacy
+    internet Message Access Protocol
+        allows download from server to multiple devices
+    Simple Mail Transfer Protocol
+
+    Security
+        keeping data encrypted, authentication etc
+        HTTPS makes sure the communication your web browser has with the web server is secured throuh encryption
+        HTTPS also referred to as HTTP/TLS or HTTP/SSL
+        transport layer security protocol - keeps communication secured over a network
+        Secured Socket Layer Protocol - old and insecure. does same as TLS
+        to enable TLS on a server you n eed to get a digital cerficate of trust from an entity called a 
+        Certificate authority
+
+
+
+FILE SERVICES
+    more scalable and efficient to share data
+
+    file storage services 
+        centrally store files and manage access between files in groups
+
+
+    Network File Storage
+
+
+Print Service
+ Linux we have CUPS - Common Unix Printing System
+
+ printing languages
+    printer Control Language by Hewlett Packard. Device dependent
+    PostScript by Adobe
+
+
+Diadnosing network issues
+    HTTP status codes
+    4xx - means error on client side
+    5xx - indicate issue on the server side
+    2xx - for successful request
+
+3 primary cloud services are 
+    SaaS PaaS IaaS

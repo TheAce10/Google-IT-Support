@@ -1,0 +1,16 @@
+module 5
+
+taskkill puid
+
+task list cmd
+get-process powershell
+
+ps linux
+ps -ef  e= all process from all users
+	f= full details
+ls -l /proc
+
+SIGINT 
+
+processv explorer
+puTTY

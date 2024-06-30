@@ -1,0 +1,95 @@
+Data recovery
+    The process of trying to restore data after an expected event that results in data loss or corruption
+
+The best way to be prepared for data-loss event is to have a well thought-out Disaster plan and procedure
+Disaster plan and procedure:
+    involve making regular backups of any and all critical data that's necessary for your ongoing business
+     processes.
+    critical data involves customer data, system databases, system conflicts, and financial data
+
+Post mortem
+    you might discover issues when recovering your data that wasn't covered in the disaster plan. 
+    A post mortem is a way for you to document any problems you discovered along the way, and 
+    most importantly, the ways you fixed them so you can make sure they dont happen again
+
+Factors to consider for a backup
+    Data thats absolutely neccessary for operation  and can be found in another source
+    ○ Email database, Sales database, financial spreadsheets, server configs, and databases.
+    ○ Account for future growth of data and choose a solution that is flexible enough to easily 
+        accomodate increases in data backups
+    ○ Local backups to systems on-site or off-site on remote systems
+        On-site or self-manages backups could be as simple as buying a commercial NAS device, loading it 
+        with a bunch of hard drives and sending data to it over the network.
+        both onsite and off site can be implemented depending on your organizations budget
+    ○ Evaluate the backup time period. How long do you need to hang onto backups for?
+
+Backup tools
+    ○ command line tool Rsync 
+    ○ Time machine for Mac OS
+    ○ backup and restore by Microsoft
+
+Testing backups
+    Restoring procedure should be documented and accessible so that anyone with the right access can restore
+    operations when needed.
+    Regularly test the documentation procedure to make sure it works now and in the future.
+    This process is called Disaster Recovery Testing. at least once a year
+
+RAID Redundant Array of Independent Disks
+    A method of taking multiple physical disks and combining them into one large virtual disks
+    
+*******************************************************
+Disaster Recovery plan
+    A collection of documented procedures and plans on how to react and handle an emergency or disaster 
+    scenario, from the operational perspective.
+    This includes things to be done before, during and after a disaster.
+    ***Covers detection and preventive measures
+    Preventive measures - any procedures or systems in place that will proactively minimize the impact of a 
+    disaster
+
+    Detection meaasures - meant to alert you and your team that a disaster has occured that can impact operations
+
+    Corrective or recovery measures - those enacted after a disaster has occured
+    When one system in a redundant pair suffers a failure, its called a single point of failure. 
+
+    Three types of measures in a disaster recovery plan
+        ○ Risk Assessement - allows to prioritize certain aspects of the organization that are at more risk.
+
+        ○ Determine Backup and Recovery Systems - make sure you ahve a sounnd backup and a recovery system 
+        along with a good strategy
+        Redundancy should not be limited to only systems, anything critcal to operations should be made 
+        redundant whenever possible e.g. power delivery - or supply, communicaton systems, data links and hardware
+        #call rautive
+        operational documantation on all procedures. 
+
+        ○ Determine Detection & Alert measures & Test systems in place that can quickly detect and alert you 
+        to service outages or abnormal environmental conditions
+        temperature,CPU loadd, network load, for service monitoring for error ratesand requests per second will 
+        give you insight into performance of the system.
+        
+        ○ Determine recovery measures
+
+*******************************************************
+What's a Post mortem
+    We create a post mortem after accident , an outage, or some event when something goes wrong, or 
+    at the end of a project to analyze how it went.
+    INCLUDES - 
+    ○ A brief summary
+        what the incident was
+        How long it lasted
+        What the impact was
+        How it was fixed.
+        #Note be mindful of time zones when listing time and dates in a post mortem
+    ○ A detailed timeline of key events - actions taken before, during and after
+        involves everthing that happened throughout the event like
+        When it started
+        When people involved were notified or realized what was going on
+        Every action taken in an attempt to resolve the situation
+    ○ A very detailed and honest account of the ROOT CAUSE is covered
+        What led to the issue
+    ○ A more detailed explanation of the RESOLUTION and RECOVERY EFFORTS should be document next
+    ○ Lastly close out the report with a list of SPECIFIC ACTIONS that should be taken to avoid 
+        the same scenario from happening again.
+        includes any actions or efforts aimed at improving the response handling too
+        What went well
+
+    

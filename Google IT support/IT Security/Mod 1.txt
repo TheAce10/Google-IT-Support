@@ -1,0 +1,96 @@
+*******************************************************
+CIA
+    Confidentiality
+        means keeping things hidden. in IT means keeping the data tha you have hidden safely from unwanted eyes
+        e.g. password protection
+    Integrity
+        Keeping our data accurate and untampered with. Data we send or receive should remain the same throughout 
+        it's entire journey
+    Availability
+        The information we have is readily accessible to those people that should have it. 
+        You should be prepared for data loss
+
+    Terms to note
+    ○ Risk
+        The possibility of suffering a loss in the event of an attack on the system
+    ○ Vulnerability
+        A flaw in a system that could be exploited to compromise the system
+        0-day vulnerability is a vulnerability that is not known to the software developer vendor, but is known 
+        to an attacker
+    ○ Exploit
+        Software that is used to take advantage of a security bug or vulnerability
+    ○ Threat
+        the possibility of danger that could exploit a vulnerability.
+    ○ Hacker 
+        in a security world is someone who attempts to break into or exploit a system
+    ○ Attack
+        an actual attempt at causing harm to a system
+
+    Malware
+        A type of malicious software that can be used to obtain your sensitive information, or delete or 
+        modify files
+        virus/worm/adware/spyware/trojan/rootkit/backdoor/botnet
+    ○ Virus
+        In a computer virus, the virus attaches it self to some sort of executable code like a program
+        When the program is running, it touches many files each of which is now susceptible to being 
+        infected with the virus. The virus replicates itself on these files, does the malicious work it's
+        intended to do and repeats this over and over until spreads as far as it can
+
+    ○ Worms
+
+    ○ Adware
+
+    ○ Spyware 
+
+    ○ Randsomeware
+
+    ○ Botnet
+        Designed to utilize the power of the internet-connected machines to perform some distributed function
+
+    ○ Backdoor
+        A way to get into a ssytem if the other methods to getin the system aren't allowed
+
+    ○ Rootkit 
+        A collection of software or tools that an admin would use. It allows admin level modification to an OS
+
+    ○ Logic Bomb
+        a type of malware that is intentionally installed
+*******************************************************
+NETWORK ATTACK
+    - a DNS Cache Poisoning attack works by tricking a DNS server into accepting a fake DNS record that will 
+    point you to a compromised DNS server
+    It then feeds you fake DNS addresses when you try to access legitimate websites
+    - Meddeler-in-the-middle attack 
+        - Rogue AP 
+        - Evil twin
+    Denial-of-Service (DOS) Attack
+        ping of death - buffer overflow
+        ping flood
+        SYN attack or half open attack
+    Distributed Denial-of-Service (DDOS) Attack
+        A DOS attack using multiple system
+*******************************************************
+OTHER ATTACKS
+    Client-side Attacks
+      Injection attacks
+        Cross-Site Scripting XSS Attacks
+        Sequel or SQL attacks attacks sequel databases directly and allow running of database commands
+
+        use input validation
+        use data sanitization
+
+    Password Attacks
+        Utilize software like passwords0crackers that try and guess your password
+        * Brute Force attack
+        Dictionary attack
+
+    Deceptive Attacks
+        Social Engineering
+            An attack method taht relies heavily on interactions with human instead of computers
+            ○ Phishing
+            ○ spear Phishing
+            ○ email spoofing
+                a source masqureading around as something else
+            ○ baiting
+            ○ tailgating
+*******************************************************

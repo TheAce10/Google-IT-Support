@@ -1,0 +1,40 @@
+Scenario.txt
+Network Funtime Company is a small company that builds open-source software. The company is made up software engineers, a few designers, one person in Human Resources (HR), and a small sales team. Altogether, there are 100 employees. They recently hired you as a system administrator to come in and become their IT department.
+
+When a new person is hired on, the HR person purchases a laptop for them to do their work. The HR representative is unfamiliar with what type of hardware is out there; if a new employee requests a laptop, the HR person will purchase the cheapest option for a laptop online. Because of this, almost everyone has a different laptop model. The company doesn’t have too much revenue to spend, so they don’t order laptops until someone gets hired at the company. This leads to a few days of wait time from when someone starts to when they can actually work on a laptop.
+
+The company doesn’t label their computers with anything, so if a computer is missing or stolen, there’s no way to audit it. There’s no inventory system to keep track of what’s currently in the fleet.
+
+Once a computer is purchased, the HR person hands it to the new employee to set up. Software engineers that use Linux have to find a USB drive and add their preferred distribution to the laptop. Anytime someone needs something from HR -- whether it’s office related or tech related -- they email the HR representative directly.
+
+When a new employee gets a machine, they’re given logins to use cloud services. They get a personal orientation with HR to make sure they can login. This requires the HR person to block off a few hours for every new employee. If an employee forgets the login to their machine, they have no way to retrieve a password and they have to reimagine their machine. Employees don’t have a strict password requirement to set for their computers.
+
+The company currently has many of their services in the cloud, such as email, word processors, spreadsheet applications, etc. They also use the application, Slack, for instant communication.
+
+
+
+Network Funtime Company
+The managemengt of these company does not employ a well defined layout in its system administration
+Problems and their improvement
+1. The use of uniform devices is advised. One can employ the services of manufacturing companiies as a third party to take up infrastructure
+2. The HR  is not responsible for providing such services as this may compromise security among others. PC should meet work standard, and should be managed on a network
+3. Auditing of currently available resources is needed to have enough knowledge and measures to put in place
+4. Computers should be labelled, added to a directory system and assigned a user. All user accounts should be secured
+5. Policies will have to be decided upon and put in place. This brings about a good and uniform work environment. Decisions like the Operating systems to be used, network service, softwares and BYOD
+
+W.D. Widgets 
+is a rapid growing well-to-do company and can invest in resources to expand the business and cope with workload when given the right reason to.
+1. First since data storage is critical, redundancy backups may be considered. 
+2. As a better way to handle fault and repair request and ticketing system can be used when one needs assistance. This helps keep track of issues reported, whether they have been attended to and how it was fixed
+3. The company may consider moving to cloud platform for its services. we should at cloud renderers that have a good track record and offer services just as we need. Company may employ IaaS, NaaS, SaaS, PaaS, DaaS where needed
+4. Automation of setting a new pc is advised. Either using automation scripts, OS complete configurations with installed apps or pre-configured virtual disks
+5. With a fiel system where everyone owns directory created, issues may come up such as access and permission problems especially when the owner(creator) leaves the company. In the directory service system, groups and organizational units may be used to define permission and access control. Administrator should have a permissions to relevant company owned files
+
+Degwood
+is a non-profit company with tight bugdets. There a lot of cuts that costing the company problems. Here are afew ways to resolve them.
+1. Firstly since the companies website is a small file it need not use up resources on the server. A cloud solution is best and more secure in this case
+2. The company uses an open source ticketing system which may be designed best for a particular environment. The company might consider redesigning the app to suite their environment or consider third party application services such as Zendesk
+3. Staff and employees should be trained on use of the ticketing system
+4. Even on low bugdets it is not a good practice to buy computers individually as you may even be spending more. Vendors can be employed on safe agreements where devices are paid for in bulk but provided only when needed.
+5. It will be safer method for HR to provide approved documentation with reasons when a pc is needed
+6. Redundancy backups using harddrives are important but not safe to be carried around. The company might employ offsite and onsite solutions. Onsite, Redundant Array of Independent Disks, a method of taking multiple physical disks and combining them into one large virtual disks, may be used. Cloud service for offsite
